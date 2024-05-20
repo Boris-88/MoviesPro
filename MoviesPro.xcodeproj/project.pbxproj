@@ -11,8 +11,6 @@
 		CECD8B4F2BFB5DE4008F421B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B4E2BFB5DE4008F421B /* ContentView.swift */; };
 		CECD8B512BFB5DE6008F421B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8B502BFB5DE6008F421B /* Assets.xcassets */; };
 		CECD8B542BFB5DE6008F421B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8B532BFB5DE6008F421B /* Preview Assets.xcassets */; };
-		CECD8B5C2BFB5F6D008F421B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5B2BFB5F6D008F421B /* Realm */; };
-		CECD8B5E2BFB5F6D008F421B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5D2BFB5F6D008F421B /* RealmSwift */; };
 		CECD8B812BFB6094008F421B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B602BFB6094008F421B /* HTTPMethod.swift */; };
 		CECD8B822BFB6094008F421B /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B612BFB6094008F421B /* HTTPStatusCode.swift */; };
 		CECD8B832BFB6094008F421B /* CertificatesSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B632BFB6094008F421B /* CertificatesSecurity.swift */; };
@@ -90,8 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECD8B5E2BFB5F6D008F421B /* RealmSwift in Frameworks */,
-				CECD8B5C2BFB5F6D008F421B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,11 +113,13 @@
 		CECD8B4B2BFB5DE4008F421B /* MoviesPro */ = {
 			isa = PBXGroup;
 			children = (
-				CECD8B5F2BFB603F008F421B /* NetworkLayer */,
-				CECD8B4C2BFB5DE4008F421B /* MoviesProApp.swift */,
+				CECD8BAD2BFB6C8F008F421B /* Aplication */,
+				CECD8BAC2BFB6C85008F421B /* Data */,
+				CECD8BAB2BFB6C7D008F421B /* Domain */,
+				CECD8BAA2BFB6C6D008F421B /* Envitonments */,
+				CECD8BA92BFB6C60008F421B /* Presentation */,
+				CECD8BA82BFB6C44008F421B /* Resources */,
 				CECD8B4E2BFB5DE4008F421B /* ContentView.swift */,
-				CECD8B502BFB5DE6008F421B /* Assets.xcassets */,
-				CECD8B522BFB5DE6008F421B /* Preview Content */,
 			);
 			path = MoviesPro;
 			sourceTree = "<group>";
@@ -196,6 +194,52 @@
 			path = HTTP;
 			sourceTree = "<group>";
 		};
+		CECD8BA82BFB6C44008F421B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B502BFB5DE6008F421B /* Assets.xcassets */,
+				CECD8B522BFB5DE6008F421B /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CECD8BA92BFB6C60008F421B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CECD8BAA2BFB6C6D008F421B /* Envitonments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Envitonments;
+			sourceTree = "<group>";
+		};
+		CECD8BAB2BFB6C7D008F421B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		CECD8BAC2BFB6C85008F421B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B5F2BFB603F008F421B /* NetworkLayer */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CECD8BAD2BFB6C8F008F421B /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B4C2BFB5DE4008F421B /* MoviesProApp.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,8 +257,6 @@
 			);
 			name = MoviesPro;
 			packageProductDependencies = (
-				CECD8B5B2BFB5F6D008F421B /* Realm */,
-				CECD8B5D2BFB5F6D008F421B /* RealmSwift */,
 			);
 			productName = MoviesPro;
 			productReference = CECD8B492BFB5DE4008F421B /* MoviesPro.app */;
@@ -245,7 +287,6 @@
 			);
 			mainGroup = CECD8B402BFB5DE4008F421B;
 			packageReferences = (
-				CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = CECD8B4A2BFB5DE4008F421B /* Products */;
 			projectDirPath = "";
@@ -521,30 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CECD8B5B2BFB5F6D008F421B /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		CECD8B5D2BFB5F6D008F421B /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CECD8B412BFB5DE4008F421B /* Project object */;
 }

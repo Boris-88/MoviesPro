@@ -13,8 +13,11 @@ open class BaseClient<Target: TargetType> {
     public init() {}
     
     open func request(target: Target) -> HTTPRequest {
-        let request = try! HTTPRequest(method: target.method, target.baseURL.appendingPathComponent(target.path), body: target.body)
-        return request
+        return try! HTTPRequest(
+            method: target.method,
+            target.baseURL.appendingPathComponent(target.path),
+            body: target.body
+        )
     }
     
     open func fetch<Model: Decodable>(target: Target) async throws -> Model {
