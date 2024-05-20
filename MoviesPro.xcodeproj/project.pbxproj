@@ -11,6 +11,8 @@
 		CECD8B4F2BFB5DE4008F421B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B4E2BFB5DE4008F421B /* ContentView.swift */; };
 		CECD8B512BFB5DE6008F421B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8B502BFB5DE6008F421B /* Assets.xcassets */; };
 		CECD8B542BFB5DE6008F421B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8B532BFB5DE6008F421B /* Preview Assets.xcassets */; };
+		CECD8B5C2BFB5F6D008F421B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5B2BFB5F6D008F421B /* Realm */; };
+		CECD8B5E2BFB5F6D008F421B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5D2BFB5F6D008F421B /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECD8B5E2BFB5F6D008F421B /* RealmSwift in Frameworks */,
+				CECD8B5C2BFB5F6D008F421B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = MoviesPro;
+			packageProductDependencies = (
+				CECD8B5B2BFB5F6D008F421B /* Realm */,
+				CECD8B5D2BFB5F6D008F421B /* RealmSwift */,
+			);
 			productName = MoviesPro;
 			productReference = CECD8B492BFB5DE4008F421B /* MoviesPro.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = CECD8B402BFB5DE4008F421B;
+			packageReferences = (
+				CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = CECD8B4A2BFB5DE4008F421B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +299,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Boris-Zverik.MoviesPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +333,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Boris-Zverik.MoviesPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +365,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CECD8B5B2BFB5F6D008F421B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		CECD8B5D2BFB5F6D008F421B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECD8B5A2BFB5F6D008F421B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CECD8B412BFB5DE4008F421B /* Project object */;
 }
