@@ -13,6 +13,37 @@
 		CECD8B542BFB5DE6008F421B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8B532BFB5DE6008F421B /* Preview Assets.xcassets */; };
 		CECD8B5C2BFB5F6D008F421B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5B2BFB5F6D008F421B /* Realm */; };
 		CECD8B5E2BFB5F6D008F421B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CECD8B5D2BFB5F6D008F421B /* RealmSwift */; };
+		CECD8B812BFB6094008F421B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B602BFB6094008F421B /* HTTPMethod.swift */; };
+		CECD8B822BFB6094008F421B /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B612BFB6094008F421B /* HTTPStatusCode.swift */; };
+		CECD8B832BFB6094008F421B /* CertificatesSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B632BFB6094008F421B /* CertificatesSecurity.swift */; };
+		CECD8B842BFB6094008F421B /* CredentialSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B642BFB6094008F421B /* CredentialSecurity.swift */; };
+		CECD8B852BFB6094008F421B /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B652BFB6094008F421B /* HTTPSecurity.swift */; };
+		CECD8B862BFB6094008F421B /* SelfSignedCertsSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B662BFB6094008F421B /* SelfSignedCertsSecurity.swift */; };
+		CECD8B872BFB6094008F421B /* SSLCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B672BFB6094008F421B /* SSLCertificate.swift */; };
+		CECD8B882BFB6094008F421B /* HTTPBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B692BFB6094008F421B /* HTTPBody.swift */; };
+		CECD8B892BFB6094008F421B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6A2BFB6094008F421B /* HTTPClient.swift */; };
+		CECD8B8A2BFB6094008F421B /* HTTPContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6B2BFB6094008F421B /* HTTPContentType.swift */; };
+		CECD8B8B2BFB6094008F421B /* HTTPDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6C2BFB6094008F421B /* HTTPDataLoader.swift */; };
+		CECD8B8C2BFB6094008F421B /* HTTPDataLoaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6D2BFB6094008F421B /* HTTPDataLoaderResponse.swift */; };
+		CECD8B8D2BFB6094008F421B /* HTTPDefaultValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6E2BFB6094008F421B /* HTTPDefaultValidator.swift */; };
+		CECD8B8E2BFB6094008F421B /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B6F2BFB6094008F421B /* HTTPError.swift */; };
+		CECD8B8F2BFB6094008F421B /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B702BFB6094008F421B /* HTTPHeaders.swift */; };
+		CECD8B902BFB6094008F421B /* HTTPProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B712BFB6094008F421B /* HTTPProgress.swift */; };
+		CECD8B912BFB6094008F421B /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B722BFB6094008F421B /* HTTPRequest.swift */; };
+		CECD8B922BFB6094008F421B /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B732BFB6094008F421B /* HTTPResponse.swift */; };
+		CECD8B932BFB6094008F421B /* HTTPResponseTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B742BFB6094008F421B /* HTTPResponseTransform.swift */; };
+		CECD8B942BFB6094008F421B /* HTTPScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B752BFB6094008F421B /* HTTPScheme.swift */; };
+		CECD8B952BFB6094008F421B /* HTTPSerializableBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B762BFB6094008F421B /* HTTPSerializableBody.swift */; };
+		CECD8B962BFB6094008F421B /* HTTPValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B772BFB6094008F421B /* HTTPValidator.swift */; };
+		CECD8B972BFB6094008F421B /* MIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B782BFB6094008F421B /* MIMEType.swift */; };
+		CECD8B982BFB6094008F421B /* RWLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B792BFB6094008F421B /* RWLock.swift */; };
+		CECD8B992BFB6094008F421B /* StreamContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7A2BFB6094008F421B /* StreamContent.swift */; };
+		CECD8B9A2BFB6094008F421B /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7B2BFB6094008F421B /* TargetType.swift */; };
+		CECD8B9B2BFB6094008F421B /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7C2BFB6094008F421B /* URITemplate.swift */; };
+		CECD8B9C2BFB6094008F421B /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7D2BFB6094008F421B /* URL+Extension.swift */; };
+		CECD8B9D2BFB6094008F421B /* URLParametersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7E2BFB6094008F421B /* URLParametersData.swift */; };
+		CECD8B9E2BFB6094008F421B /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B7F2BFB6094008F421B /* URLRequest+Extension.swift */; };
+		CECD8BA02BFB609F008F421B /* BaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8B9F2BFB609F008F421B /* BaseClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +52,37 @@
 		CECD8B4E2BFB5DE4008F421B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CECD8B502BFB5DE6008F421B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECD8B532BFB5DE6008F421B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CECD8B602BFB6094008F421B /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CECD8B612BFB6094008F421B /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		CECD8B632BFB6094008F421B /* CertificatesSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificatesSecurity.swift; sourceTree = "<group>"; };
+		CECD8B642BFB6094008F421B /* CredentialSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialSecurity.swift; sourceTree = "<group>"; };
+		CECD8B652BFB6094008F421B /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		CECD8B662BFB6094008F421B /* SelfSignedCertsSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSignedCertsSecurity.swift; sourceTree = "<group>"; };
+		CECD8B672BFB6094008F421B /* SSLCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLCertificate.swift; sourceTree = "<group>"; };
+		CECD8B692BFB6094008F421B /* HTTPBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPBody.swift; sourceTree = "<group>"; };
+		CECD8B6A2BFB6094008F421B /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		CECD8B6B2BFB6094008F421B /* HTTPContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPContentType.swift; sourceTree = "<group>"; };
+		CECD8B6C2BFB6094008F421B /* HTTPDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPDataLoader.swift; sourceTree = "<group>"; };
+		CECD8B6D2BFB6094008F421B /* HTTPDataLoaderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPDataLoaderResponse.swift; sourceTree = "<group>"; };
+		CECD8B6E2BFB6094008F421B /* HTTPDefaultValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPDefaultValidator.swift; sourceTree = "<group>"; };
+		CECD8B6F2BFB6094008F421B /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		CECD8B702BFB6094008F421B /* HTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		CECD8B712BFB6094008F421B /* HTTPProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPProgress.swift; sourceTree = "<group>"; };
+		CECD8B722BFB6094008F421B /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		CECD8B732BFB6094008F421B /* HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		CECD8B742BFB6094008F421B /* HTTPResponseTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseTransform.swift; sourceTree = "<group>"; };
+		CECD8B752BFB6094008F421B /* HTTPScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPScheme.swift; sourceTree = "<group>"; };
+		CECD8B762BFB6094008F421B /* HTTPSerializableBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSerializableBody.swift; sourceTree = "<group>"; };
+		CECD8B772BFB6094008F421B /* HTTPValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPValidator.swift; sourceTree = "<group>"; };
+		CECD8B782BFB6094008F421B /* MIMEType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIMEType.swift; sourceTree = "<group>"; };
+		CECD8B792BFB6094008F421B /* RWLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RWLock.swift; sourceTree = "<group>"; };
+		CECD8B7A2BFB6094008F421B /* StreamContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamContent.swift; sourceTree = "<group>"; };
+		CECD8B7B2BFB6094008F421B /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		CECD8B7C2BFB6094008F421B /* URITemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URITemplate.swift; sourceTree = "<group>"; };
+		CECD8B7D2BFB6094008F421B /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		CECD8B7E2BFB6094008F421B /* URLParametersData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParametersData.swift; sourceTree = "<group>"; };
+		CECD8B7F2BFB6094008F421B /* URLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		CECD8B9F2BFB609F008F421B /* BaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +117,7 @@
 		CECD8B4B2BFB5DE4008F421B /* MoviesPro */ = {
 			isa = PBXGroup;
 			children = (
+				CECD8B5F2BFB603F008F421B /* NetworkLayer */,
 				CECD8B4C2BFB5DE4008F421B /* MoviesProApp.swift */,
 				CECD8B4E2BFB5DE4008F421B /* ContentView.swift */,
 				CECD8B502BFB5DE6008F421B /* Assets.xcassets */,
@@ -69,6 +132,68 @@
 				CECD8B532BFB5DE6008F421B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECD8B5F2BFB603F008F421B /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B9F2BFB609F008F421B /* BaseClient.swift */,
+				CECD8B802BFB6094008F421B /* HTTP */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CECD8B622BFB6094008F421B /* HTTPStuctures */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B602BFB6094008F421B /* HTTPMethod.swift */,
+				CECD8B612BFB6094008F421B /* HTTPStatusCode.swift */,
+			);
+			path = HTTPStuctures;
+			sourceTree = "<group>";
+		};
+		CECD8B682BFB6094008F421B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B632BFB6094008F421B /* CertificatesSecurity.swift */,
+				CECD8B642BFB6094008F421B /* CredentialSecurity.swift */,
+				CECD8B652BFB6094008F421B /* HTTPSecurity.swift */,
+				CECD8B662BFB6094008F421B /* SelfSignedCertsSecurity.swift */,
+				CECD8B672BFB6094008F421B /* SSLCertificate.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CECD8B802BFB6094008F421B /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CECD8B622BFB6094008F421B /* HTTPStuctures */,
+				CECD8B682BFB6094008F421B /* Security */,
+				CECD8B692BFB6094008F421B /* HTTPBody.swift */,
+				CECD8B6A2BFB6094008F421B /* HTTPClient.swift */,
+				CECD8B6B2BFB6094008F421B /* HTTPContentType.swift */,
+				CECD8B6C2BFB6094008F421B /* HTTPDataLoader.swift */,
+				CECD8B6D2BFB6094008F421B /* HTTPDataLoaderResponse.swift */,
+				CECD8B6E2BFB6094008F421B /* HTTPDefaultValidator.swift */,
+				CECD8B6F2BFB6094008F421B /* HTTPError.swift */,
+				CECD8B702BFB6094008F421B /* HTTPHeaders.swift */,
+				CECD8B712BFB6094008F421B /* HTTPProgress.swift */,
+				CECD8B722BFB6094008F421B /* HTTPRequest.swift */,
+				CECD8B732BFB6094008F421B /* HTTPResponse.swift */,
+				CECD8B742BFB6094008F421B /* HTTPResponseTransform.swift */,
+				CECD8B752BFB6094008F421B /* HTTPScheme.swift */,
+				CECD8B762BFB6094008F421B /* HTTPSerializableBody.swift */,
+				CECD8B772BFB6094008F421B /* HTTPValidator.swift */,
+				CECD8B782BFB6094008F421B /* MIMEType.swift */,
+				CECD8B792BFB6094008F421B /* RWLock.swift */,
+				CECD8B7A2BFB6094008F421B /* StreamContent.swift */,
+				CECD8B7B2BFB6094008F421B /* TargetType.swift */,
+				CECD8B7C2BFB6094008F421B /* URITemplate.swift */,
+				CECD8B7D2BFB6094008F421B /* URL+Extension.swift */,
+				CECD8B7E2BFB6094008F421B /* URLParametersData.swift */,
+				CECD8B7F2BFB6094008F421B /* URLRequest+Extension.swift */,
+			);
+			path = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +274,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECD8B4F2BFB5DE4008F421B /* ContentView.swift in Sources */,
+				CECD8B8A2BFB6094008F421B /* HTTPContentType.swift in Sources */,
+				CECD8B942BFB6094008F421B /* HTTPScheme.swift in Sources */,
+				CECD8B9D2BFB6094008F421B /* URLParametersData.swift in Sources */,
+				CECD8BA02BFB609F008F421B /* BaseClient.swift in Sources */,
 				CECD8B4D2BFB5DE4008F421B /* MoviesProApp.swift in Sources */,
+				CECD8B8D2BFB6094008F421B /* HTTPDefaultValidator.swift in Sources */,
+				CECD8B952BFB6094008F421B /* HTTPSerializableBody.swift in Sources */,
+				CECD8B932BFB6094008F421B /* HTTPResponseTransform.swift in Sources */,
+				CECD8B902BFB6094008F421B /* HTTPProgress.swift in Sources */,
+				CECD8B8E2BFB6094008F421B /* HTTPError.swift in Sources */,
+				CECD8B852BFB6094008F421B /* HTTPSecurity.swift in Sources */,
+				CECD8B842BFB6094008F421B /* CredentialSecurity.swift in Sources */,
+				CECD8B9B2BFB6094008F421B /* URITemplate.swift in Sources */,
+				CECD8B8B2BFB6094008F421B /* HTTPDataLoader.swift in Sources */,
+				CECD8B8F2BFB6094008F421B /* HTTPHeaders.swift in Sources */,
+				CECD8B832BFB6094008F421B /* CertificatesSecurity.swift in Sources */,
+				CECD8B8C2BFB6094008F421B /* HTTPDataLoaderResponse.swift in Sources */,
+				CECD8B922BFB6094008F421B /* HTTPResponse.swift in Sources */,
+				CECD8B862BFB6094008F421B /* SelfSignedCertsSecurity.swift in Sources */,
+				CECD8B892BFB6094008F421B /* HTTPClient.swift in Sources */,
+				CECD8B872BFB6094008F421B /* SSLCertificate.swift in Sources */,
+				CECD8B822BFB6094008F421B /* HTTPStatusCode.swift in Sources */,
+				CECD8B9A2BFB6094008F421B /* TargetType.swift in Sources */,
+				CECD8B962BFB6094008F421B /* HTTPValidator.swift in Sources */,
+				CECD8B9C2BFB6094008F421B /* URL+Extension.swift in Sources */,
+				CECD8B9E2BFB6094008F421B /* URLRequest+Extension.swift in Sources */,
+				CECD8B982BFB6094008F421B /* RWLock.swift in Sources */,
+				CECD8B972BFB6094008F421B /* MIMEType.swift in Sources */,
+				CECD8B912BFB6094008F421B /* HTTPRequest.swift in Sources */,
+				CECD8B812BFB6094008F421B /* HTTPMethod.swift in Sources */,
+				CECD8B992BFB6094008F421B /* StreamContent.swift in Sources */,
+				CECD8B882BFB6094008F421B /* HTTPBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
